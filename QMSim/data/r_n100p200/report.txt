@@ -1,0 +1,51 @@
+09:26:09  Monday, June 13, 2022
+DISCLAIMER - QMSim software is distributed "AS IS" solely for academic use.
+The authors and thier organizations will not be liable for any general, special,
+incidental or consequential damages arising from the use of QMSim. By the use of
+this software the user agrees to bear all risk resulting from using the software.
+ .------------------------------------. 
+|          _   _   _   _   _           |
+|         / \ / \ / \ / \ / \          |
+|        ( Q   M   S   i   m )         |
+|         \_/ \_/ \_/ \_/ \_/          |
+|                                      |
+|      (QTL and Marker Simulator)      |
+|         Version 2.0 (8-bit)          |
+|                                      |
+|  Mehdi Sargolzaei & Flavio Schenkel  |
+|      HiggsGene Solutions Inc. &      |
+|         University of Guelph         |
+|   ------ Copyright (c) 2007 ------   |
+|     (Last update: June 11, 2019)     |
+ `------------------------------------' 
+ .---------------------------. 
+|  Example 1 - 10k SNP panel  |
+ `---------------------------' 
+Parameter file                   : n100p200.prm
+Output folder                    : r_n100p200/
+Seed for random number generator : from current system time
+Seed is backed up in             : r_n100p200/seed
+Warning - Pop "p1" G1: Sires do not have equal number of mates
+Warning - Pop "p1" G2: Sires do not have equal number of mates
+Warning - Pop "p1" G3: Sires do not have equal number of mates
+Warning - Pop "p1" G4: Sires do not have equal number of mates
+Warning - Pop "p1" G5: Sires do not have equal number of mates
+
+Max. no. threads                 : 26
+No. replicates                   : 1
+No. populations                  : 1
+h2                               : 0.7
+Polygenic variance               : 0
+QTL variance                     : 0.7
+Residual variance                : 0.3
+Phenotypic variance              : 1
+No. chromosomes                  : 5
+No. QTL in total                 : 10
+No. markers in total             : 200
+Marker mutation rate             : 0
+QTL mutation rate                : 0
+Crossover interference           : 0
+
+Replicate   1
+Overall time : 00:00:00
+Completed (5 warnings!).
